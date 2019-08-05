@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Credenz'19 | Coming soon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Including style sheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <!-- Include font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <!-- Change the icon in title -->
+    <link rel="icon" type="image" href="images/Logo.png">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+</head>
+<body onload="start()">
+
+    <!-- Preloader -->
+    <div id="loading"></div>
+
+    <!-- Main Page -->
+    <section id="header">
+        <div class="hero" id="home">
+            <div class="hero-bg">
+                <div class="container-fluid">
+                    <div class="d-flex flex-wrap justify-content-between p-4">
+                        <div class="logo">
+                            <a href="https://www.ieee.org/" target="_blank"><img src="images/ieeelogo.png" class="img-responsive img-fluid" id="ieee"/></a>
+                        </div>
+                        <div class="logo">
+                            <a href="http://pictieee.in/" target="_blank"><img src="images/logopisb.png" class="img-responsive img-fluid" id="pisb"/></a>
+                        </div>
+                    </div>
+                    
+                    <div class="align-logos">
+                        <div class="d-flex flex-wrap justify-content-center">
+                            <div class="credenz-19-logo m-3 ">
+                                <div class="wow flipInY" data-wow-delay="0.5s">
+                                    <img src="images/Logo.png" class="img-responsive img-fluid" />
+                                </div>
+                            </div>
+                            <div class="credenz-19-textsoon">
+                                <div class="wow flipInX" data-wow-delay="1s">
+                                    <img src="images/Coming Soon Transparent White.png" class="img-responsive img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5">
+                        <a class="scroll-down-btn" href="#events"><span class="fa fa-angle-double-down" style="color: white;"></span></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark sticky-top" style="background: #000">
+        <!-- Brand -->
+        <!-- Toggler/collapsible Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav p-1">
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" id="1" href="#home">Home</a>
+                </li>
+
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" id="2" href="#events">Events</a>
+                </li>
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" id="3" href="#about">About us</a>
+                </li> 
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" id="4" href="#ping">P.I.N.G.</a>
+                </li> 
+                <li class="nav-item mx-1">
+                    <a class="nav-link text-uppercase" id="5" href="#footer">Contact us</a>
+                </li> 
+            </ul>
+        </div> 
+    </nav>
+
+    <!-- Event Page -->
+    
+    <main id="content">
+        <section id="events" onload="start()">
+            <div class="padding-div">
+                <div class="text-center">
+                    <h3 class="sec-title text-uppercase font-weight-bold">Events</h3>
+                </div><br/>
+                <div class="container">
+                    <ul id="diamond-grid">
+                        <li class="diamond wow bounceInRight" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/bplan.png" alt="" class="img-responsive img-fluid"/>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInLeft" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/clash.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInRight" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/contraption.png" alt="" class="img-responsive img-fluid"/>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceIn" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/cretronix.png" alt="" class="img-responsive img-fluid"/>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInLeft" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/nth.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInRight" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/paper.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceIn" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/quiz.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceIn" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/revb.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInLeft" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/roboliga.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInRight" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/Seminars.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceIn" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/stockwhite.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInLeft" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/web.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInRight" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/workshop.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                        <li class="diamond wow bounceInLeft" data-wow-delay="0.5s">
+                            <div class="diamond-entry">
+                                <p class="diamond-link">
+                                    <img src="images/xodia.png" alt="" class="img-responsive img-fluid" />
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="bg-hero-dark" style="background: #4E4E50">
+            <div class="padding-div">
+                <div class="container">
+                    
+                    <div class="text-center">
+                        <h3 class="sec-title text-uppercase font-weight-bold text-white">About</h3>
+                    </div><br />
+                    
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="p-4 m-1 wow slideInLeft" style="background: #1A1A1D; border-radius: 7px;">
+                                <div class="pisb text-center text-white">
+                                    <img src="images/logopisb.png" class="img-responsive img-fluid" />
+                                    <p class="text-justify mt-3 p-2" style="font-size: 15px;">
+                                        PICT IEEE Student Branch (PISB) was established in the year 1988 with an aim of inculcating a sense of technical awareness amongst its student members. PISB aims to escalate the knowledge and trends in the diverse fields of technologies amongst its members.
+                                        <br>PISB upholds two major events every year - Credenz and Credenz Tech Dayz with the first one being conducted in odd semester and the latter one in even semester. PISB is also marked by its Women in Engineering (WIE) chapter, an initiative for empowerment of women.<br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6">
+                            <div class="p-4 m-1 wow slideInRight" style="background: #1A1A1D; border-radius: 7px;">
+                                <div class="pisb  text-center text-white" >
+                                    <img src="images/ieeelogo.png" class="img-responsive img-fluid" />
+                                    <p class="text-justify mt-3 p-2" style="font-size: 15px;">
+                                        The Institute of Electrical and Electronics Engineering (IEEE) is an International organization, which has been the nexus for propagating scientific expertise among people all over the globe.IEEE continues to attract students, faculty and professionals from various fields all around the world and is committed to incorporating diversity in thoughts which is essential for scientific development.<br>
+                                        IEEE serves as a hub to many engineering students and faculty members for expressing their technical acuity to the world and has always been at the forefront of the technical revolution.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ping -->
+        <section id="ping">
+            <div class="padding-div">
+                
+                <div class="text-center">
+                        <h3 class="sec-title text-uppercase font-weight-bold">Pict ieee newsletter group</h3>
+                    </div><br />
+                
+                <div class="container">
+                    <p class="text-center wow fadeInUp" style="color: white">
+                        P.I.N.G. (PICT IEEE Newsletter Group) is the official technical magazine of PISB published twice a year. P.I.N.G. serves as a platform for individuals to portray their technical ingenuity. It highlights articles on cutting-edge technologies from technocrats all around the globe including students, industrialists and faculty members. It also features interviews of distinguished personalities in various technical domains. <br><br>
+                        P.I.N.G. aims at keeping its readers up to date on recent developments in technology and helps them extrapolate their perceptions to contemporary ideas of modernisation. <br><br>
+                        With the imminent Issue 15.1, be ready to get PING'd! 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map -->
+        <section id="map" class="bg-light"></section>
+
+        <!-- Footer -->
+        <section id="footer" class="bg-hero-dark" style="background: #4E4E50">
+            <div class="p-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="con col-md-4 col-lg-5" style="align-content: flex-start;">
+                            <div class="m-2 text-white wow fadeInUp phone">
+                                <p>Hritik Zutshi: <br class="br-on-mobile"><i class="fa fa-phone fa-icons"></i><span>+91-7701864159</span></p>
+                                <p>Bhushan Chougule: <br class="br-on-mobile"><i class="fa fa-phone fa-icons"></i><span>+91-8605200014</span></p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-3">
+                            <div class="follow m-2 text-center text-white wow fadeInUp">
+                                <h4>Follow us</h4>
+                                <div class="social d-flex flex-wrap justify-content-center">
+                                    <a href="https://www.facebook.com/pisb.credenz/" class="m-1">
+                                        <span class="fa fa-facebook large"></span>
+                                    </a>
+                                    <a href="https://www.instagram.com/pisbcredenz/" class="m-1">
+                                        <span class="fa fa-instagram large"></span>
+                                    </a>
+                                    <a href="https://twitter.com/pisbcredenz" class="m-1"> 
+                                        <span class="fa fa-twitter large" ></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="contus m-2 text-white text-center wow fadeInUp">
+                                <h4>Contact us</h4>
+                                <p class="text-center"><a href="mailto:ieee.pisb@gmail.com"><i class="fa fa-envelope fa-icons" style="margin: 0 10px;"></i>contact@credenz.info</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="p-2 text-white text-center" style="background: rgba(0,0,0,0.2)">
+                    Developed by webteam@pisb
+            </p>
+        </section>
+    </main>
+
+    <!-- Including scripts -->
+    <!-- Script for background pipeline animation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.14/lodash.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/effects.js"></script>
+    <!-- Preloader script -->
+    <script>
+        var preloader = document.getElementById("loading");
+        function start() {
+            preloader.style.display = 'none';
+        }
+    </script>
+    <!-- Script for collapsing the navbar -->
+    <script>
+    $('div ul li a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
+    </script>
+    <!-- For highlighting the selected section in navbar -->
+    <script>
+    // Cache selectors
+    var lastId,
+        topMenu = $(".navbar-nav"),
+        topMenuHeight = topMenu.outerHeight()+15,
+        // All list items
+        menuItems = topMenu.find("a"),
+        // Anchors corresponding to menu items
+        scrollItems = menuItems.map(function(){
+        var item = $($(this).attr("href"));
+        if (item.length) { return item; }
+        });
+
+    // Bind to scroll
+    $(window).scroll(function(){
+    // Get container scroll position
+    var fromTop = $(this).scrollTop()+topMenuHeight;
+    
+    // Get id of current scroll item
+    var cur = scrollItems.map(function(){
+        if ($(this).offset().top < fromTop)
+        return this;
+    });
+    // Get the id of the current element
+    cur = cur[cur.length-1];
+    var id = cur && cur.length ? cur[0].id : "";
+    
+    if (lastId !== id) {
+        lastId = id;
+        // Set/remove active class
+        menuItems
+            .parent().removeClass("active")
+            .end().filter("[href='#"+id+"']").parent().addClass("active");
+    }                   
+    });
+    </script>
+    <!-- Including google maps api -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_kTiPGrTIf3xAV7HR47mqUcAE-AxMMbs&callback=initMap"></script>
+</body>
+</html>
